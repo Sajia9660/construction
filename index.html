@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/f4a2d33500.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-rectangle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">LOCATIONS</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="textbox">
+        <h1>Adarsh Construction Company</h1>
+        <h3>WE <mark class="yellow">BUILD</mark> TOGETHER</h3>
+        <p>Construction solution for any building project. With an unwavering focus on quality, ADC Construction provides
+            general construction, project management, estimating and skilled
+        craftsmanship to exceed expectations on every job. </p>
+        <br>
+        <a href="" class="visit">Visit Us to know more</a>
+    </div>
+    </section>
+<!----course----->
+
+<section class="previous">
+    <h1>Previous Works</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+         Fugiat exercitationem eaque nesciunt quas in fuga explicabo, 
+         optio harum vero consectetur repellat </p>
+         <div class="row">
+            <div class="previous-col">
+                <h3>Rajiv Nagar</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Facere, iure. Recusandae enim minima sint necessitatibus itaque?
+                 Eum accusantium aut, laboriosam, perferendis sint autem unde cupiditate 
+                 qui voluptate totam ab corporis.
+            </div>
+            <div class="previous-col">
+                <h3>Talwandi</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Facere, iure. Recusandae enim minima sint necessitatibus itaque?
+                 Eum accusantium aut, laboriosam, perferendis sint autem unde cupiditate 
+                 qui voluptate totam ab corporis.
+            </div>
+            <div class="previous-col">
+                <h3>Bundi</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Facere, iure. Recusandae enim minima sint necessitatibus itaque?
+                 Eum accusantium aut, laboriosam, perferendis sint autem unde cupiditate 
+                 qui voluptate totam ab corporis.
+            </div>
+         </div>
+</section>
+
+<!--active location-->
+<section class ="location">
+    <h1>Active Locations</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="location-col">
+            <img src="images/building.jpg">
+            <div class="layer">
+                <br>
+                <h3>KOTA</h3>
+            </div>
+        </div>
+        <div class="location-col">
+            <img src="images/building1.jpg">
+            <div class="layer">
+                <br>
+                <h3>BUNDI</h3>
+            </div>
+        </div>
+        <div class="location-col">
+            <img src="images/building2.jpg">
+            <div class="layer">
+                <br>
+                <h3>TALWANDI</h3>
+            </div>
+        </div>
+    </div>
+
+    <!--call to action-->
+</section>
+
+<section class="cta">
+    <h1>Contact us to make dream home a <mark class="color">reality</mark></h1>
+    <a href="" class="visit">CONTACT</a>
+</section>
+
+ <!--footer-->
+ <section class="footer">
+    <h3>About Us</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid harum 
+        consectetur consequatur labore magni excepturi atque doloremque facilis rerum debitis,
+         quidem amet commodi nulla illo non deserunt optio reprehenderit? Quo!</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+         
+    <p>Made by Sajia Ali</p>
+ </section>
+
+
+
+
+<!--javascript for toggle menu-->
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
